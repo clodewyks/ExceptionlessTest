@@ -26,7 +26,7 @@ namespace ExceptionlessXamarinTest
             fab.Click += FabOnClick;
 
             MobileLogger.InitializeLogger();
-            //MobileLogger.XamarinExceptionlessTest();
+            MobileLogger.XamarinExceptionlessTest();
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
